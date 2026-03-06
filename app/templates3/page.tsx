@@ -870,7 +870,7 @@ button { font-family: inherit; }
 
 /* ─── MAIN COMPONENT ─────────────────────────────────────────────────────────── */
 
-export default function RudhraHome(): JSX.Element {
+export default function RudhraHome() {
   const [themeKey, setThemeKey]     = useState<ThemeKey>("obsidian");
   const [tsOpen, setTsOpen]         = useState<boolean>(false);
   const [mobNav, setMobNav]         = useState<boolean>(false);

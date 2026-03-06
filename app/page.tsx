@@ -1664,7 +1664,7 @@ const Footer: FC = () => {
 };
 
 /* ─── ROOT ───────────────────────────────────────────────── */
-export default function LuxuryEstate(): JSX.Element {
+export default function LuxuryEstate() {
   useReveal();
   return (
     <>
