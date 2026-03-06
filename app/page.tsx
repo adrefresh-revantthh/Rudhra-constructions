@@ -941,7 +941,7 @@ const Hero: FC = () => {
           fontSize:"0.52rem", letterSpacing:"0.34em",
           color:T.textMuted, textTransform:"uppercase",
           fontFamily:"Jost,sans-serif", fontWeight:400,
-        }}>Award-Winning Architecture · Since 2006</span>
+        }}>Award-Winning Architecture · Sincce 2006</span>
         <div style={{ width:1, height:52, background:`linear-gradient(to bottom, ${T.gold}, transparent)` }}/>
       </div>
 
