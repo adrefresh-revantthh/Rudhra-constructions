@@ -1065,7 +1065,7 @@ function BookingModal({ onClose }: { onClose: () => void }) {
               <button onClick={onClose} style={{ padding: "14px", background: t.accent, color: t.accentFg, border: "none", fontSize: 11, fontWeight: 500, letterSpacing: "0.16em", textTransform: "uppercase", cursor: "pointer", fontFamily: "var(--font-body)", borderRadius: 4, transition: "opacity 0.2s" }}
                 onMouseEnter={e => (e.currentTarget.style.opacity = "0.82")}
                 onMouseLeave={e => (e.currentTarget.style.opacity = "1")}>
-                Confirm Viewing ✓
+                Confirm Viewing, ✓
               </button>
               <button onClick={() => setStep(1)} style={{ background: "none", border: "none", color: t.fgMuted, fontSize: 12, cursor: "pointer", fontFamily: "var(--font-body)", textAlign: "center" }}>
                 ← Back
