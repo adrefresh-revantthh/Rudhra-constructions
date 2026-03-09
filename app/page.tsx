@@ -610,7 +610,7 @@ const AWARDS: Award[] = [
 const NAV_LINKS: NavLink[] = [
   { label:"Template2", href:"/pages" },
   { label:"Template3",   href:"/templates3" },
-  { label:"Blueprint",  href:"#blueprint" },
+  { label:"Template4",  href:"/template4" },
   { label:"Skyline",    href:"#skyline" },
   { label:"Contact",    href:"#contact" },
 ];
