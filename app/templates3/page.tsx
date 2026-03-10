@@ -118,7 +118,8 @@ const GALLERY_IMGS: string[] = [
   "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=700&q=85",
   "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=700&q=85",
   "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=700&q=85",
-  "https://images.unsplash.com/photo-1560185127-6a192a7a0b8b?w=700&q=85",
+    "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&q=85",
+
 ];
 
 const TESTIMONIALS = [
@@ -871,7 +872,7 @@ button { font-family: inherit; }
 /* ─── MAIN COMPONENT ─────────────────────────────────────────────────────────── */
 
 export default function RudhraHome() {
-  const [themeKey, setThemeKey]     = useState<ThemeKey>("obsidian");
+  const [themeKey, setThemeKey]     = useState<ThemeKey>("arctic");
   const [tsOpen, setTsOpen]         = useState<boolean>(false);
   const [mobNav, setMobNav]         = useState<boolean>(false);
   const [scrolled, setScrolled]     = useState<boolean>(false);
